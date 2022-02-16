@@ -1,3 +1,3 @@
 name = 'Jeffrey' 
 
-print(f"This is my Name {name}")
+print(f"This is my name {name}")
