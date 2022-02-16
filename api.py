@@ -10,6 +10,10 @@ async def root():
 async def root():
     return {"myName": "Francisco Vasquez"}
 
+@app.get("/vc")
+async def root():
+    return {"myName": "Victor Calderón"}
+
 @app.get("/jg")
 async def root():
     return {"myName": "Jeffrey Grassals"} 
