@@ -13,3 +13,15 @@ async def root():
 @app.get("/mj")
 async def root():
     return {"myName": "Miguel Jiménez"}
+
+@app.get("/fc")
+async def root():
+    return {"myName": "Fernando Cabrera"}
+
+@app.get("/vc")
+async def root():
+    return {"myName": "Victor Calderón"}
+
+@app.get("/jg")
+async def root():
+    return {"myName": "Jeffrey Grassals"}
