@@ -25,3 +25,7 @@ async def root():
 @app.get("/jg")
 async def root():
     return {"myName": "Jeffrey Grassals"}
+
+@app.get("/tc")
+async def root():
+    return {"myName": "Thais Contreras"}
